@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background: linear-gradient(to right, #000000, #3a0170);
+
+
+
+
+
+
+
+}
+h1 {
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+.contagem {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #ffffffc7;
+}
+button {
+ 
+  background: transparent;
+  color:#FFFFFF;
+  border: 2px solid #3a0170;
+  border-radius:15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 1rem;
+  margin: 1rem 0.5rem; color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(58, 1, 112, 0.4); 
+
+}
+#aumentar {
+   background: #3a0170;
+  color: #f3f2f2;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7); /* brilho aumenta no hover */
+}
+#reiniciar {
+  background: #3a0170;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7); /* brilho aumenta no hover */
+}
+@media screen and (max-width: 450px) {
+  #botoes {
+    display: flex;
+    flex-direction: column;
+  }
+}
